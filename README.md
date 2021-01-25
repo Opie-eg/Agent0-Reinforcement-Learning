@@ -9,6 +9,8 @@ A interação entre o agente e o ambiente é comandada através de um cliente e 
 ## Como instalar
 Para correr o servidor e o cliente, o utilizador deve ter instalada a versão 3 do Python. Além do Python 3, o cliente necessita da biblioteca Pillow
   
+## Exemplo de execução do codigo:
+- https://www.youtube.com/watch?v=TCOlIeBL8MI&feature=youtu.be
 ### Instalar o Python 3:
  
 **Nota: para facilitar a utilização no Windows, o Python deve ser adicionado ao PATH**  
@@ -35,7 +37,9 @@ Na linha de comandos, **a partir do diretório principal do projeto**, executar,
     ```python3 client/example.py```  
 
 ## Como comandar o agente:  
-**TODO**
+Ao correr o client.py o utilizador consegue dar inputs para o movimento do agente através do input "command" seguido de : 
+"forward" movimenta o nosso agente para a sua frente;"backward" movimenta o agente para trás;"left" e "right" altera a direção 
+onde o agente está voltado para esquerda e direita respetivamente.
   
 ## Como configurar:  
 A configuração do ambiente e do agente é feita no ficheiro **config.json**, através da alteração dos valores associados a cada string.  
